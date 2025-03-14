@@ -33,7 +33,7 @@ body {
 
 .main-img,
 .img-card {
-	border-radius: 16px;
+	border-radius: 28px;
 	width: 100%;
 	box-shadow: 12px 12px 6px rgba(0, 0, 0, 0.1);
 }
@@ -75,8 +75,9 @@ h1 {
 	/* width: 1120px; */
 }
 
-#main-img {
+.main-img {
 	/* size: 1120px 660px; */
+	background-color: #d9d9d9;
 }
 
 #image-description {
@@ -103,6 +104,7 @@ p {
 }
 
 .img-card {
+	background-color: #d9d9d9;
 	margin-bottom: 20px;
 }
 
@@ -118,6 +120,10 @@ h3 {
 ul {
 	line-height: 150%;
 	padding-left: 32px;
+}
+
+ul li::marker {
+	color: #333333;
 }
 
 #description {
